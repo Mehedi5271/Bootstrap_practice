@@ -41,6 +41,9 @@ img {
     text-transform: uppercase;
     color: #fff;
 }
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
 
 @media (min-width: 992px) {
     .navbar {
@@ -50,5 +53,17 @@ img {
         background-size: cover;
         background-position: center;
     }
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+     /* CONTENT WRAPPER */
+     #content-wraper {
+        padding-left: var(--sidbar-width);
+    }
 
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--color-base);
 }
